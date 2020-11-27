@@ -75,10 +75,10 @@ static constexpr auto calculate_epoch_seed = ethash_calculate_epoch_seed;
 
 
 /// Calculates the epoch number out of the block number.
-inline constexpr int get_epoch_number(int block_number) noexcept
+inline int get_epoch_number(int block_number) noexcept
 {
     if (block_number >= ecip1099_activation_block) 
-    { // TODO - iquidus
+    {
         return block_number / epoch_length_ecip1099;
     } 
     else 

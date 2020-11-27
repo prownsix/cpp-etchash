@@ -139,7 +139,7 @@ epoch_context_full* create_epoch_context(
 
     // TODO - iquidus
     int epoch_ecip1099 = epoch_number;
-    if epoch_number >= ecip_1099_activation_epoch;
+    if (epoch_number >= ecip_1099_activation_epoch)
     {
         // note, int truncates, it doesnt round, 10 == 10.5. So this is ok.
         epoch_ecip1099 = epoch_number/2;
