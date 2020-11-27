@@ -6,7 +6,7 @@
 
 ## Networks
 
-This branch is configured for Ethereum Classic mainnet. For mordor use the mordor branch.
+This branch is configured for mordor testnet. For classic mainnet use the master branch.
 
 
 ## Table of Contents

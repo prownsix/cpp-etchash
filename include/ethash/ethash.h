@@ -32,8 +32,8 @@ extern "C" {
 #define ETHASH_NUM_DATASET_ACCESSES 64
 // ECIP-1099 (ETCHASH)
 #define ETCHASH_EPOCH_LENGTH 60000
-#define ETCHASH_ACTIVATION_BLOCK 11700000 // classic mainnet
-// #define ETCHASH_ACTIVATION_BLOCK 2520000 // mordor
+//#define ETCHASH_ACTIVATION_BLOCK 11700000 // classic mainnet
+#define ETCHASH_ACTIVATION_BLOCK 2520000 // mordor
 
 struct ethash_epoch_context
 {
