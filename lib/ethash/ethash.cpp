@@ -26,7 +26,8 @@ constexpr static int full_dataset_init_size = 1 << 30;
 constexpr static int full_dataset_growth = 1 << 23;
 constexpr static int full_dataset_item_parents = 256;
 // ECIP-1099
-constexpr static int ecip_1099_activation_epoch = 390; // classic mainnet
+constexpr static int ecip_1099_activation_epoch = 195; // classic mainnet
+// constexpr static int ecip_1099_activation_epoch = 390; // classic mainnet
 // constexpr static int ecip_1099_activation_epoch = 84; // mordor
 
 // Verify constants:
