@@ -7,7 +7,7 @@
 
 /** inline */
 #if _MSC_VER || __STDC_VERSION__
-#define INLINE inline
+#define INLINE __inline
 #else
 #define INLINE
 #endif
